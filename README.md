@@ -66,6 +66,8 @@ Edit `.env.local`:
 | `VITE_LAUNCH_AT` | No | ISO 8601 — full site shows **from** this instant (default in code: after Mar 29 → opens Mar 30 00:00 +01:00) |
 | `VITE_BYPASS_PRELAUNCH` | No | Set to `true` to always show the full app (dev) |
 
+**Social preview:** `public/og-image.jpg` is referenced as `/og-image.jpg` in `index.html` (Open Graph / Twitter). Crawlers resolve it against your live domain.
+
 > **Never commit `.env.local`** — it is ignored via `*.local` in `.gitignore`.
 
 ### 3. Database (Supabase)
