@@ -23,3 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 debug-*.log
+
+# Database SQL (kept local only — not published in the repo)
+supabase/

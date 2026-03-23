@@ -68,19 +68,17 @@ Edit `.env.local`:
 
 > **Never commit `.env.local`** — it is ignored via `*.local` in `.gitignore`.
 
-### 3. Database (Supabase SQL Editor)
+### 3. Database (Supabase)
 
-Run scripts **in order** (adjust if you already applied some):
+SQL migrations and seeds are **not** in this repository (`supabase/` is gitignored).  
+Apply your schema and policies directly in the **Supabase SQL Editor** (or keep a private copy of your `.sql` files locally).
 
-1. `supabase/schema.sql` — core `ai_tools`, RLS read, `increment_upvote` RPC  
-2. `supabase/tool-detail.sql` — `slug`, `click_count`, `increment_click` RPC  
-3. `supabase/newsletter.sql` — `newsletter_subscribers`  
-4. `supabase/submissions.sql` — `tool_submissions` + authenticated policies for admin CRUD  
+Your project should define at least:
 
-Then seed data (optional, large):
-
-- `supabase/seed.sql` — starter set  
-- `supabase/generated-seed.sql` — extended generated dataset  
+- Table **`ai_tools`** (directory fields, geo columns, `slug`, `click_count`, RLS public read)  
+- RPC **`increment_upvote`**, **`increment_click`**  
+- Table **`newsletter_subscribers`** (public insert)  
+- Table **`tool_submissions`** + RLS for authenticated admin CRUD on tools  
 
 **Auth (admin):** create a user under **Authentication → Users**, then sign in at `/admin`.
 
@@ -114,13 +112,13 @@ Deploy `dist/` to any static host (Vercel, Netlify, Cloudflare Pages, etc.). Set
 | `npm run build` | Typecheck + production bundle |
 | `npm run preview` | Serve `dist/` locally |
 
-**Seed generator** (optional):
+**Seed generator** (optional, local only):
 
 ```bash
 npx tsx scripts/generate-seed.ts
 ```
 
-Writes SQL into `supabase/generated-seed.sql`.
+Writes SQL into `supabase/generated-seed.sql` (folder ignored by Git — run locally).
 
 ---
 
@@ -133,8 +131,8 @@ src/
   lib/            # supabase client, types, slug, launch gate, globe utils
   pages/          # MainPage, GlobePage, ToolDetailPage, PrelaunchPage, SubmitToolPage
   pages/admin/    # Login, layout, dashboard, tools CRUD, submissions
-supabase/         # SQL migrations & seeds
 public/           # Static assets
+# supabase/       # (local only, gitignored) SQL migrations & seeds
 ```
 
 ---
