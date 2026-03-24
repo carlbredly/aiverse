@@ -66,7 +66,7 @@ Edit `.env.local`:
 | `VITE_LAUNCH_AT` | No | ISO 8601 — full site shows **from** this instant (default in code: after Mar 29 → opens Mar 30 00:00 +01:00) |
 | `VITE_BYPASS_PRELAUNCH` | No | Set to `true` to always show the full app (dev) |
 
-**Social preview:** `public/og-image.jpg` is referenced as `/og-image.jpg` in `index.html` (Open Graph / Twitter). Crawlers resolve it against your live domain.
+**Social preview:** `public/og-image.jpg` is referenced as `/og-image.jpg` in `index.html` for **Open Graph** (Facebook, LinkedIn, Discord, etc.) and **Twitter / X Cards** (`twitter:card`, `twitter:title`, `twitter:description`, `twitter:image`, `twitter:image:alt`). Crawlers resolve the image URL against your live domain. Optional: add `<meta name="twitter:site" content="@YourHandle" />` in `index.html` to attribute the card to your X account. Test with [X Card Validator](https://cards-dev.twitter.com/validator) after deploy.
 
 > **Never commit `.env.local`** — it is ignored via `*.local` in `.gitignore`.
 
