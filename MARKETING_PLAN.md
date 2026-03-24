@@ -23,29 +23,35 @@
 ## 1. Positionnement & USP
 
 ### Tagline principale
+
 > **"Every AI tool on Earth — in one place."**
 
 ### Taglines alternatives (A/B test)
+
 - "1 000+ AI tools. One search. No noise."
 - "The world's AI tools directory — with a globe to prove it."
 - "Find the right AI. Stop wasting time."
 
 ### Positionnement en une phrase
+
 AIverse est le **répertoire de référence des outils IA** : recherche instantanée, filtres avancés, globe mondial interactif, et upvotes communautaires — pour que chaque développeur, marketeur et entrepreneur trouve le bon outil en moins de 30 secondes.
 
 ### Différenciateurs vs la concurrence
 
-| Critère | AIverse | Product Hunt | There's An AI For That | Futurepedia |
-|---|---|---|---|---|
-| Nombre d'outils | 1 000+ | Mixte | ~5 000 (non structuré) | ~3 000 |
-| Globe mondial | ✅ 3D interactif | ❌ | ❌ | ❌ |
-| Filtres combinables | ✅ Catégorie + Prix + Tags | ❌ | Partiel | Partiel |
-| Upvote communautaire | ✅ | ✅ | ❌ | ❌ |
-| Temps réel (Supabase) | ✅ | ❌ | ❌ | ❌ |
-| Design dark editorial | ✅ | ❌ | ❌ | ❌ |
-| Open / gratuit | ✅ | Freemium | ✅ | Freemium |
+
+| Critère               | AIverse                   | Product Hunt | There's An AI For That | Futurepedia |
+| --------------------- | ------------------------- | ------------ | ---------------------- | ----------- |
+| Nombre d'outils       | 1 000+                    | Mixte        | ~5 000 (non structuré) | ~3 000      |
+| Globe mondial         | ✅ 3D interactif           | ❌            | ❌                      | ❌           |
+| Filtres combinables   | ✅ Catégorie + Prix + Tags | ❌            | Partiel                | Partiel     |
+| Upvote communautaire  | ✅                         | ✅            | ❌                      | ❌           |
+| Temps réel (Supabase) | ✅                         | ❌            | ❌                      | ❌           |
+| Design dark editorial | ✅                         | ❌            | ❌                      | ❌           |
+| Open / gratuit        | ✅                         | Freemium     | ✅                      | Freemium    |
+
 
 ### Avantage compétitif clé
+
 Le **globe 3D** est le hook visuel irrésistible. Aucun concurrent ne visualise la géographie de l'IA mondiale. C'est le screenshot à mettre en avant partout.
 
 ---
@@ -53,6 +59,7 @@ Le **globe 3D** est le hook visuel irrésistible. Aucun concurrent ne visualise 
 ## 2. Personas cibles
 
 ### Persona A — "Alex le Dev Indie"
+
 - **Profil** : Développeur solo, 25–35 ans, construit des side-projects
 - **Douleur** : Perd des heures à comparer des APIs IA, ne sait pas lesquelles sont open source ou payantes
 - **Ce qu'il cherche sur AIverse** : Filtrer par catégorie "Code", trier par "Open Source", voir les upvotes
@@ -60,6 +67,7 @@ Le **globe 3D** est le hook visuel irrésistible. Aucun concurrent ne visualise 
 - **Message clé** : "Filter by Open Source. Find your stack in 10 seconds."
 
 ### Persona B — "Sarah la Marketeuse"
+
 - **Profil** : Responsable marketing PME, 28–42 ans, cherche à automatiser la production de contenu
 - **Douleur** : Ne sait pas si ChatGPT, Jasper ou Copy.ai est meilleur pour son budget
 - **Ce qu'elle cherche** : Filtrer par "Text Generation" + "Freemium", comparer les prix
@@ -67,6 +75,7 @@ Le **globe 3D** est le hook visuel irrésistible. Aucun concurrent ne visualise 
 - **Message clé** : "Compare 100+ AI writing tools by price in one click."
 
 ### Persona C — "Théo le Curieux Tech"
+
 - **Profil** : Étudiant ou jeune pro, 18–28 ans, suit les tendances IA
 - **Douleur** : Submergé par les annonces IA, ne sait pas par où commencer
 - **Ce qu'il cherche** : Explorer les nouvelles tendances, jouer avec le globe, découvrir les outils les plus upvotés
@@ -80,60 +89,68 @@ Le **globe 3D** est le hook visuel irrésistible. Aucun concurrent ne visualise 
 ### Semaine -2 (J-14 à J-8) : Construction de l'audience
 
 #### Actions techniques
-- [ ] Mettre en ligne une page "Coming Soon" avec le globe animé en fond
-- [ ] Configurer Google Analytics 4 ou Plausible
-- [ ] Créer les comptes sociaux : @AIverse sur X, LinkedIn Page "AIverse"
-- [ ] Préparer les visuels (screenshots du globe, cartes de catégories)
-- [ ] Soumettre le site à Google Search Console
+
+- Mettre en ligne une page "Coming Soon" avec le globe animé en fond
+- Configurer Google Analytics 4 ou Plausible
+- Créer les comptes sociaux : @AIverse sur X, LinkedIn Page "AIverse"
+- Préparer les visuels (screenshots du globe, cartes de catégories)
+- Soumettre le site à Google Search Console
 
 #### Actions marketing
-- [ ] **Post teaser J-14** (X + LinkedIn) — voir Section 7, Post #T1
-- [ ] **Post teaser J-10** — voir Section 7, Post #T2
-- [ ] Contacter 5 newsletters AI pour annoncer le lancement (voir Section 9)
-- [ ] Créer un profil Product Hunt et "hunter" le produit en avance
+
+- **Post teaser J-14** (X + LinkedIn) — voir Section 7, Post #T1
+- **Post teaser J-10** — voir Section 7, Post #T2
+- Contacter 5 newsletters AI pour annoncer le lancement (voir Section 9)
+- Créer un profil Product Hunt et "hunter" le produit en avance
 
 #### Checklist visuelle
-- [ ] Screenshot du globe sur fond sombre (résolution 1200×628 pour OG image)
-- [ ] Vidéo screen-record 15s du globe qui tourne (pour Reels/TikTok)
-- [ ] Bannière Twitter 1500×500 avec tagline
-- [ ] Logo carré 400×400 pour profils sociaux
+
+- Screenshot du globe sur fond sombre (résolution 1200×628 pour OG image)
+- Vidéo screen-record 15s du globe qui tourne (pour Reels/TikTok)
+- Bannière Twitter 1500×500 avec tagline
+- Logo carré 400×400 pour profils sociaux
 
 ### Semaine -1 (J-7 à J-1) : Montée en pression
 
 #### Actions
-- [ ] **Post teaser J-7** avec compte à rebours — voir Section 7, Post #T3
-- [ ] Envoyer DMs personnalisés à 20 créateurs/influenceurs AI (voir Section 9)
-- [ ] Préparer le thread de lancement complet (8 tweets — voir Section 7)
-- [ ] Programmer tous les posts du Jour J sur Buffer ou Hypefury
-- [ ] Vérifier que Product Hunt est prêt (assets, description, makers connectés)
-- [ ] Tester le site sur mobile, tablette, desktop
-- [ ] Vérifier les meta tags OG (titre, description, image)
+
+- **Post teaser J-7** avec compte à rebours — voir Section 7, Post #T3
+- Envoyer DMs personnalisés à 20 créateurs/influenceurs AI (voir Section 9)
+- Préparer le thread de lancement complet (8 tweets — voir Section 7)
+- Programmer tous les posts du Jour J sur Buffer ou Hypefury
+- Vérifier que Product Hunt est prêt (assets, description, makers connectés)
+- Tester le site sur mobile, tablette, desktop
+- Vérifier les meta tags OG (titre, description, image)
 
 #### Checklist technique avant go-live
-- [ ] `VITE_SUPABASE_URL` et `VITE_SUPABASE_ANON_KEY` configurés en production
-- [ ] Domaine personnalisé configuré (ex. aiverse.io ou aiverse.app)
-- [ ] HTTPS actif
-- [ ] `robots.txt` et `sitemap.xml` présents
-- [ ] Temps de chargement < 3s (vérifier avec PageSpeed Insights)
-- [ ] Erreurs console = 0 en production
-- [ ] `og:image` visible quand on partage l'URL sur X / LinkedIn
-- [ ] Favicon visible dans l'onglet
+
+- `VITE_SUPABASE_URL` et `VITE_SUPABASE_ANON_KEY` configurés en production
+- Domaine personnalisé configuré (ex. aiverse.io ou aiverse.app)
+- HTTPS actif
+- `robots.txt` et `sitemap.xml` présents
+- Temps de chargement < 3s (vérifier avec PageSpeed Insights)
+- Erreurs console = 0 en production
+- `og:image` visible quand on partage l'URL sur X / LinkedIn
+- Favicon visible dans l'onglet
 
 ---
 
 ## 4. Phase 2 — Jour de lancement (J0)
 
 ### Timing recommandé (heure Paris)
-| Heure | Action |
-|---|---|
-| 07:00 | Publier sur Product Hunt (minuit SF = 9h Paris) |
-| 08:00 | Lancer le thread X de lancement |
-| 08:30 | Post LinkedIn long format |
+
+
+| Heure | Action                                               |
+| ----- | ---------------------------------------------------- |
+| 07:00 | Publier sur Product Hunt (minuit SF = 9h Paris)      |
+| 08:00 | Lancer le thread X de lancement                      |
+| 08:30 | Post LinkedIn long format                            |
 | 09:00 | Posts Reddit (r/artificial, r/SideProject, r/webdev) |
-| 10:00 | Story Instagram + Reels |
-| 12:00 | Post de rappel X ("En ce moment sur Product Hunt…") |
-| 18:00 | Post de fin de journée + récap stats |
-| 21:00 | Dernier push X + remerciements |
+| 10:00 | Story Instagram + Reels                              |
+| 12:00 | Post de rappel X ("En ce moment sur Product Hunt…")  |
+| 18:00 | Post de fin de journée + récap stats                 |
+| 21:00 | Dernier push X + remerciements                       |
+
 
 ---
 
@@ -142,11 +159,13 @@ Le **globe 3D** est le hook visuel irrésistible. Aucun concurrent ne visualise 
 **Nom du produit :** AIverse
 
 **Tagline (60 car max) :**
+
 ```
 Every AI tool on Earth — searchable, filterable, on a 3D globe
 ```
 
 **Description courte (260 car) :**
+
 ```
 AIverse is the most comprehensive AI tools directory: 1,000+ tools, 
 advanced filters (category, pricing, tags), real-time upvoting, 
@@ -155,6 +174,7 @@ Find your next AI tool in under 30 seconds.
 ```
 
 **Description longue (pour la page Product Hunt) :**
+
 ```
 Hey Product Hunt! 👋
 
@@ -183,6 +203,7 @@ I'd love your feedback on what to add next!
 ```
 
 **Topics à sélectionner sur Product Hunt :**
+
 - Artificial Intelligence
 - Productivity
 - Developer Tools
@@ -190,6 +211,7 @@ I'd love your feedback on what to add next!
 - No-Code
 
 **Premier commentaire à poster dans les 5 minutes du lancement :**
+
 ```
 Hey everyone! Creator here 👋
 
@@ -218,6 +240,7 @@ want me to build next 🙏
 ### Thread X de lancement (8 tweets — à publier en thread)
 
 **Tweet 1 (hook) :**
+
 ```
 I just launched AIverse 🌍
 
@@ -228,6 +251,7 @@ Here's what makes it different from every other AI list 👇
 ```
 
 **Tweet 2 :**
+
 ```
 Most AI directories are just... lists.
 
@@ -241,6 +265,7 @@ But the globe is the real star 🌐
 ```
 
 **Tweet 3 :**
+
 ```
 The 3D globe shows every AI company clustered by country.
 
@@ -254,6 +279,7 @@ AI is truly global now.
 ```
 
 **Tweet 4 :**
+
 ```
 10 categories to explore:
 
@@ -268,6 +294,7 @@ Filter any combo. Sort by upvotes or price.
 ```
 
 **Tweet 5 :**
+
 ```
 Pricing transparency is a big deal.
 
@@ -280,6 +307,7 @@ self-hostable coding tools. No paywalls to discover them.
 ```
 
 **Tweet 6 :**
+
 ```
 Built with:
 → React 18 + TypeScript
@@ -293,6 +321,7 @@ Zero tracking. Just tools.
 ```
 
 **Tweet 7 :**
+
 ```
 It's live now 👇
 
@@ -305,6 +334,7 @@ Upvote, bookmark, share — every bit helps 🙏
 ```
 
 **Tweet 8 (engagement) :**
+
 ```
 Question for you:
 
@@ -472,59 +502,68 @@ Happy to go deep on any of the technical decisions.
 
 ### Semaine 1 post-lancement (J+1 à J+7) : Capitaliser sur le momentum
 
-| Jour | Action | Plateforme |
-|---|---|---|
-| J+1 | Post "Day 1 stats" (vues, upvotes PH, visiteurs) | X + LinkedIn |
-| J+2 | Carousel #1 : "Top 10 outils IA gratuits" | Instagram + LinkedIn |
-| J+3 | "Tool of the Day" : ChatGPT deep-dive | X |
-| J+4 | Répondre à tous les commentaires Product Hunt | Product Hunt |
-| J+5 | Post Reddit r/ChatGPT avec angle "compare alternatives" | Reddit |
-| J+6 | Carousel #2 : "Le globe AIverse" | Instagram |
-| J+7 | Thread récap de la semaine + leçons apprises | X |
+
+| Jour | Action                                                  | Plateforme           |
+| ---- | ------------------------------------------------------- | -------------------- |
+| J+1  | Post "Day 1 stats" (vues, upvotes PH, visiteurs)        | X + LinkedIn         |
+| J+2  | Carousel #1 : "Top 10 outils IA gratuits"               | Instagram + LinkedIn |
+| J+3  | "Tool of the Day" : ChatGPT deep-dive                   | X                    |
+| J+4  | Répondre à tous les commentaires Product Hunt           | Product Hunt         |
+| J+5  | Post Reddit r/ChatGPT avec angle "compare alternatives" | Reddit               |
+| J+6  | Carousel #2 : "Le globe AIverse"                        | Instagram            |
+| J+7  | Thread récap de la semaine + leçons apprises            | X                    |
+
 
 ### Semaine 2 (J+8 à J+14) : Contenu éducatif
 
-| Jour | Action | Plateforme |
-|---|---|---|
-| J+8 | Article blog : "10 meilleurs outils IA gratuits en 2026" | Blog/Medium |
-| J+9 | "Tool of the Day" : Midjourney | X |
-| J+10 | Carousel #3 : "Free vs Paid AI tools" | Instagram + LinkedIn |
-| J+11 | Post LinkedIn : "Comment j'ai mappé l'IA mondiale sur un globe" | LinkedIn |
-| J+12 | Contacter 5 nouvelles newsletters pour coverage | Email |
-| J+13 | Reels TikTok : démonstration du globe | TikTok |
-| J+14 | Thread : "10 outils IA que la plupart des gens ne connaissent pas" | X |
+
+| Jour | Action                                                             | Plateforme           |
+| ---- | ------------------------------------------------------------------ | -------------------- |
+| J+8  | Article blog : "10 meilleurs outils IA gratuits en 2026"           | Blog/Medium          |
+| J+9  | "Tool of the Day" : Midjourney                                     | X                    |
+| J+10 | Carousel #3 : "Free vs Paid AI tools"                              | Instagram + LinkedIn |
+| J+11 | Post LinkedIn : "Comment j'ai mappé l'IA mondiale sur un globe"    | LinkedIn             |
+| J+12 | Contacter 5 nouvelles newsletters pour coverage                    | Email                |
+| J+13 | Reels TikTok : démonstration du globe                              | TikTok               |
+| J+14 | Thread : "10 outils IA que la plupart des gens ne connaissent pas" | X                    |
+
 
 ### Semaine 3 (J+15 à J+21) : Engagement communautaire
 
-| Jour | Action | Plateforme |
-|---|---|---|
+
+| Jour | Action                                                                  | Plateforme   |
+| ---- | ----------------------------------------------------------------------- | ------------ |
 | J+15 | Lancer un sondage : "Quelle catégorie d'outils IA manque sur AIverse ?" | X + LinkedIn |
-| J+16 | Article blog : "Best AI coding tools 2026 (free vs paid)" | Blog |
-| J+17 | "Tool of the Day" : Claude | X |
-| J+18 | Post de témoignage utilisateur (si disponible) | LinkedIn |
-| J+19 | Carousel : "IA pour marketeurs : 8 outils indispensables" | Instagram |
-| J+20 | Répondre aux demandes d'ajout d'outils | Site/Email |
-| J+21 | Thread récap mois 1 | X |
+| J+16 | Article blog : "Best AI coding tools 2026 (free vs paid)"               | Blog         |
+| J+17 | "Tool of the Day" : Claude                                              | X            |
+| J+18 | Post de témoignage utilisateur (si disponible)                          | LinkedIn     |
+| J+19 | Carousel : "IA pour marketeurs : 8 outils indispensables"               | Instagram    |
+| J+20 | Répondre aux demandes d'ajout d'outils                                  | Site/Email   |
+| J+21 | Thread récap mois 1                                                     | X            |
+
 
 ### Semaine 4 (J+22 à J+30) : SEO et pérennisation
 
-| Jour | Action | Plateforme |
-|---|---|---|
-| J+22 | Publier 2 nouveaux articles SEO | Blog |
-| J+23 | Soumettre le site à des annuaires (AlternativeTo, Slant) | Web |
-| J+24 | "Tool of the Day" : Cursor IDE | X |
-| J+25 | Newsletter partenaire : co-promotion | Email |
-| J+26 | Carousel : "Les outils IA les plus upvotés cette semaine" | Instagram |
-| J+27 | Mise à jour publique : "50 nouveaux outils ajoutés" | X + LinkedIn |
-| J+28 | Analyse : quelles pages reçoivent le plus de trafic ? | Google Analytics |
-| J+29 | Optimiser les 5 pages les plus visitées (meta, contenu) | Site |
-| J+30 | Post bilan 30 jours (stats complètes) | X + LinkedIn |
+
+| Jour | Action                                                    | Plateforme       |
+| ---- | --------------------------------------------------------- | ---------------- |
+| J+22 | Publier 2 nouveaux articles SEO                           | Blog             |
+| J+23 | Soumettre le site à des annuaires (AlternativeTo, Slant)  | Web              |
+| J+24 | "Tool of the Day" : Cursor IDE                            | X                |
+| J+25 | Newsletter partenaire : co-promotion                      | Email            |
+| J+26 | Carousel : "Les outils IA les plus upvotés cette semaine" | Instagram        |
+| J+27 | Mise à jour publique : "50 nouveaux outils ajoutés"       | X + LinkedIn     |
+| J+28 | Analyse : quelles pages reçoivent le plus de trafic ?     | Google Analytics |
+| J+29 | Optimiser les 5 pages les plus visitées (meta, contenu)   | Site             |
+| J+30 | Post bilan 30 jours (stats complètes)                     | X + LinkedIn     |
+
 
 ### Stratégie "Tool of the Day"
 
 Chaque jour ouvré, publier un post dédié à un outil du répertoire :
 
 **Format type :**
+
 ```
 🔧 Tool of the Day — [NOM DE L'OUTIL]
 
@@ -551,12 +590,14 @@ Find it (+ 999 others) on AIverse 👇
 ---
 
 ### CAROUSEL 1 — "Top 10 outils IA GRATUITS en 2026"
+
 *Format : 11 slides (1 cover + 9 outils + 1 CTA)*
 *Ratio : 1:1 (1080×1080) ou 4:5 (1080×1350)*
 
 ---
 
 **SLIDE 1 — COVER**
+
 ```
 [VISUEL : Fond dark avec particules animées, logo AIverse en haut]
 
@@ -575,6 +616,7 @@ BADGE BAS :
 ---
 
 **SLIDE 2 — Outil #10**
+
 ```
 [VISUEL : Logo Perplexity AI sur fond dark, badge "GRATUIT" cyan]
 
@@ -597,6 +639,7 @@ Prix : GRATUIT (Pro à $20/mois)
 ---
 
 **SLIDE 3 — Outil #9**
+
 ```
 [VISUEL : Logo Mistral sur fond dark, badge "OPEN SOURCE" violet]
 
@@ -619,6 +662,7 @@ Prix : OPEN SOURCE (API à partir de $2/M tokens)
 ---
 
 **SLIDE 4 — Outil #8**
+
 ```
 [VISUEL : Logo Llama/Meta sur fond dark]
 
@@ -641,6 +685,7 @@ Prix : OPEN SOURCE (gratuit)
 ---
 
 **SLIDE 5 — Outil #7**
+
 ```
 [VISUEL : Logo Stable Diffusion sur fond dark]
 
@@ -663,6 +708,7 @@ Prix : OPEN SOURCE (gratuit)
 ---
 
 **SLIDE 6 — Outil #6**
+
 ```
 [VISUEL : Logo Gemma/Google sur fond dark]
 
@@ -685,6 +731,7 @@ Prix : OPEN SOURCE (gratuit)
 ---
 
 **SLIDE 7 — Outil #5**
+
 ```
 [VISUEL : Logo Notion AI sur fond dark, badge "FREEMIUM" vert]
 
@@ -707,6 +754,7 @@ Prix : FREEMIUM (inclus dans Notion Free avec limites)
 ---
 
 **SLIDE 8 — Outil #4**
+
 ```
 [VISUEL : Logo DeepSeek sur fond dark, badge "OPEN SOURCE"]
 
@@ -729,6 +777,7 @@ Prix : OPEN SOURCE (API à $0.14/M tokens)
 ---
 
 **SLIDE 9 — Outil #3**
+
 ```
 [VISUEL : Logo Claude/Anthropic sur fond dark]
 
@@ -751,6 +800,7 @@ Prix : FREEMIUM (gratuit, Pro à $20/mois)
 ---
 
 **SLIDE 10 — Outil #2**
+
 ```
 [VISUEL : Logo Gemini/Google sur fond dark]
 
@@ -773,6 +823,7 @@ Prix : FREEMIUM (gratuit, Advanced à $19.99/mois)
 ---
 
 **SLIDE 11 — CTA**
+
 ```
 [VISUEL : Screenshot du site AIverse avec le globe visible]
 
@@ -795,11 +846,13 @@ BAS DE SLIDE :
 ---
 
 ### CAROUSEL 2 — "L'IA est partout dans le monde — Le Globe AIverse"
+
 *Format : 7 slides*
 
 ---
 
 **SLIDE 1 — COVER**
+
 ```
 [VISUEL : Screenshot du globe AIverse en plein écran]
 
@@ -818,6 +871,7 @@ BADGE :
 ---
 
 **SLIDE 2**
+
 ```
 [VISUEL : Globe zoomé sur les États-Unis, points lumineux]
 
@@ -837,6 +891,7 @@ Pour l'instant."
 ---
 
 **SLIDE 3**
+
 ```
 [VISUEL : Globe zoomé sur l'Europe]
 
@@ -854,6 +909,7 @@ Vite."
 ---
 
 **SLIDE 4**
+
 ```
 [VISUEL : Globe zoomé sur l'Asie]
 
@@ -871,6 +927,7 @@ L'Asie est dans la course."
 ---
 
 **SLIDE 5**
+
 ```
 [VISUEL : Données statistiques stylisées sur fond dark]
 
@@ -888,6 +945,7 @@ Reviens voir."
 ---
 
 **SLIDE 6**
+
 ```
 [VISUEL : Interface de filtrage du globe par catégorie]
 
@@ -906,6 +964,7 @@ l'Europe est très forte ici.
 ---
 
 **SLIDE 7 — CTA**
+
 ```
 [VISUEL : Globe + interface AIverse]
 
@@ -925,11 +984,13 @@ CTA :
 ---
 
 ### CAROUSEL 3 — "Free vs Paid : Quel outil IA choisir ?"
+
 *Format : 9 slides*
 
 ---
 
 **SLIDE 1 — COVER**
+
 ```
 [VISUEL : Deux colonnes — "$0" vs "$$" sur fond dark]
 
@@ -946,6 +1007,7 @@ SOUS-TITRE :
 ---
 
 **SLIDE 2**
+
 ```
 [VISUEL : Schéma "Freemium Funnel"]
 
@@ -964,6 +1026,7 @@ Pratique, non ?"
 ---
 
 **SLIDE 3**
+
 ```
 [VISUEL : Cas d'usage "Étudiant / Débutant"]
 
@@ -982,6 +1045,7 @@ pour démarrer avec l'IA."
 ---
 
 **SLIDE 4**
+
 ```
 [VISUEL : Cas d'usage "Professionnel"]
 
@@ -1000,6 +1064,7 @@ Mesure le ROI avant d'en ajouter."
 ---
 
 **SLIDE 5**
+
 ```
 [VISUEL : Cas d'usage "Développeur"]
 
@@ -1018,6 +1083,7 @@ Pas de dépendance. Pas de coût d'API."
 ---
 
 **SLIDE 6**
+
 ```
 [VISUEL : Tableau comparatif simple]
 
@@ -1039,6 +1105,7 @@ Code :
 ---
 
 **SLIDE 7**
+
 ```
 [VISUEL : Alerte rouge — "Évite ces erreurs"]
 
@@ -1061,6 +1128,7 @@ Compare avant d'acheter."
 ---
 
 **SLIDE 8**
+
 ```
 [VISUEL : Règle du pouce — chiffre impactant]
 
@@ -1080,6 +1148,7 @@ ne le prends pas encore."
 ---
 
 **SLIDE 9 — CTA**
+
 ```
 [VISUEL : Interface de filtrage AIverse — filtre Freemium actif]
 
@@ -1104,12 +1173,13 @@ CTA :
 ### X / Twitter — 10 posts stand-alone
 
 **Post #T1 — Teaser J-14**
+
 ```
-Something is coming 👀
+
+One 3D globe.Something is coming 👀
 
 1,000+ AI tools.
 One search.
-One 3D globe.
 
 → aiverse.io (live soon)
 
@@ -1117,6 +1187,7 @@ RT if you're tired of scattered AI lists.
 ```
 
 **Post #T2 — Teaser J-10**
+
 ```
 What if you could see every AI company 
 in the world on a globe — and click on 
@@ -1128,6 +1199,7 @@ That's one feature of what I'm launching next week.
 ```
 
 **Post #T3 — Teaser J-7**
+
 ```
 1 week until launch.
 
@@ -1142,6 +1214,7 @@ You in? 🌍
 ```
 
 **Post #1 — Question engagement**
+
 ```
 What % of AI tools do you think are 
 based outside the US?
@@ -1155,6 +1228,7 @@ Answer + source: AIverse globe 🌍
 ```
 
 **Post #2 — Stat choc**
+
 ```
 There are now 1,000+ AI tools publicly available.
 
@@ -1167,6 +1241,7 @@ The gap between "using AI" and
 ```
 
 **Post #3 — Tip**
+
 ```
 Tip: When evaluating an AI tool, always check:
 
@@ -1180,6 +1255,7 @@ AIverse shows you #1 and #2 for 1,000+ tools.
 ```
 
 **Post #4 — Hook catchy**
+
 ```
 I searched "best AI writing tools" on Google.
 
@@ -1192,15 +1268,18 @@ So I built the thing I was looking for.
 ```
 
 **Post #5 — Thread teaser**
+
 ```
 The most underrated AI tools right now 
 (that nobody talks about):
 
 A thread 🧵
 ```
+
 *(Puis lister 5–7 outils peu connus depuis AIverse)*
 
 **Post #6 — Social proof (à utiliser après J+3)**
+
 ```
 In 48 hours, AIverse got:
 
@@ -1215,6 +1294,7 @@ Still live: [VOTRE_URL]
 ```
 
 **Post #7 — Récurrence hebdomadaire**
+
 ```
 🗓️ This week on AIverse:
 
@@ -1231,6 +1311,7 @@ Full directory → [VOTRE_URL]
 ### LinkedIn — 3 posts long format supplémentaires
 
 **Post LinkedIn #2 — "Comment j'ai mappé l'IA mondiale"**
+
 ```
 La question que tout le monde m'a posée depuis le lancement :
 
@@ -1279,6 +1360,7 @@ Qu'est-ce que tu aurais fait différemment pour les données ?
 ---
 
 **Post LinkedIn #3 — Angle "Futur du travail"**
+
 ```
 Dans 2 ans, "je ne sais pas utiliser les outils IA" sera l'équivalent 
 de "je ne sais pas faire une recherche Google" en 2005.
@@ -1326,6 +1408,7 @@ Raconte-moi en commentaire 👇
 ### TikTok / Reels — 3 scripts vidéo
 
 **Script Vidéo #1 — "J'ai mappé 1000 outils IA sur un globe" (30s)**
+
 ```
 [0–3s] 
 TEXTE À L'ÉCRAN : "J'ai mappé 1 000 outils IA sur un globe 3D"
@@ -1356,6 +1439,7 @@ HASHTAGS : #IA #AITools #SideProject #TechTok #Productivité
 ---
 
 **Script Vidéo #2 — "Top 3 outils IA gratuits que tu connais pas" (45s)**
+
 ```
 [0–3s]
 TEXTE : "3 outils IA gratuits que personne ne te dit d'utiliser"
@@ -1386,6 +1470,7 @@ HASHTAGS : #AIGratuit #Llama #DeepSeek #Perplexity #TechTips
 ---
 
 **Script Vidéo #3 — POV "Tu cherches un outil IA" (60s)**
+
 ```
 [0–5s]
 TEXTE : "POV : Tu cherches un outil IA pour ton business"
@@ -1424,18 +1509,20 @@ HASHTAGS : #AITools #ProductivitéIA #Entrepreneur #TechTok
 
 ### 10 articles prioritaires à rédiger
 
-| # | Titre | Mot-clé principal | Volume estimé | Difficulté |
-|---|---|---|---|---|
-| 1 | Best Free AI Tools in 2026 (Tested & Ranked) | best free ai tools | Très élevé | Haute |
-| 2 | Best AI Coding Tools for Developers in 2026 | best ai coding tools | Élevé | Moyenne |
-| 3 | ChatGPT vs Claude vs Gemini: Which is Best? | chatgpt vs claude | Élevé | Haute |
-| 4 | Best AI Image Generators: Free & Paid Compared | best ai image generator | Élevé | Haute |
-| 5 | Open Source AI Tools You Can Self-Host in 2026 | open source ai tools | Moyen | Faible |
-| 6 | Best AI Tools for Marketing Teams | ai tools for marketing | Moyen | Faible |
-| 7 | How to Choose an AI Writing Tool (Complete Guide) | how to choose ai writing tool | Moyen | Faible |
-| 8 | Freemium AI Tools Worth Upgrading To | freemium ai tools | Faible | Très faible |
-| 9 | AI Tools by Country: Where Is AI Being Built? | ai tools by country | Faible | Très faible |
-| 10 | Best AI Productivity Tools for 2026 | ai productivity tools | Moyen | Moyenne |
+
+| #   | Titre                                             | Mot-clé principal             | Volume estimé | Difficulté  |
+| --- | ------------------------------------------------- | ----------------------------- | ------------- | ----------- |
+| 1   | Best Free AI Tools in 2026 (Tested & Ranked)      | best free ai tools            | Très élevé    | Haute       |
+| 2   | Best AI Coding Tools for Developers in 2026       | best ai coding tools          | Élevé         | Moyenne     |
+| 3   | ChatGPT vs Claude vs Gemini: Which is Best?       | chatgpt vs claude             | Élevé         | Haute       |
+| 4   | Best AI Image Generators: Free & Paid Compared    | best ai image generator       | Élevé         | Haute       |
+| 5   | Open Source AI Tools You Can Self-Host in 2026    | open source ai tools          | Moyen         | Faible      |
+| 6   | Best AI Tools for Marketing Teams                 | ai tools for marketing        | Moyen         | Faible      |
+| 7   | How to Choose an AI Writing Tool (Complete Guide) | how to choose ai writing tool | Moyen         | Faible      |
+| 8   | Freemium AI Tools Worth Upgrading To              | freemium ai tools             | Faible        | Très faible |
+| 9   | AI Tools by Country: Where Is AI Being Built?     | ai tools by country           | Faible        | Très faible |
+| 10  | Best AI Productivity Tools for 2026               | ai productivity tools         | Moyen         | Moyenne     |
+
 
 ### Structure type d'un article SEO
 
@@ -1484,6 +1571,7 @@ HASHTAGS : #AITools #ProductivitéIA #Entrepreneur #TechTok
 `ai productivity tools`, `ai for work`, `automate tasks with ai`
 
 **Longue traîne (faible concurrence, haute conversion) :**
+
 - `open source ai tools self hosted`
 - `free ai tools for students`
 - `ai tools under $20 per month`
@@ -1496,14 +1584,16 @@ HASHTAGS : #AITools #ProductivitéIA #Entrepreneur #TechTok
 
 ### Newsletters AI à cibler (pitch dans les 72h du lancement)
 
-| Newsletter | Audience | Contact | Angle pitch |
-|---|---|---|---|
-| The Rundown AI | 500K+ | rundownai.com/submit | "Largest directory + 3D globe" |
-| TLDR AI | 400K+ | tldr.tech/ai | "Launch story + tech stack" |
-| Ben's Bites | 100K+ | bensbites.beehiiv.com | "Globe visual = unique hook" |
-| Superhuman | 200K+ | joinsuperhuman.ai | "Productivity angle" |
-| AI Tool Report | 150K+ | aitoolreport.com | "Directory submission" |
-| The AI Exchange | 80K+ | Direct LinkedIn | "Founder story" |
+
+| Newsletter      | Audience | Contact               | Angle pitch                    |
+| --------------- | -------- | --------------------- | ------------------------------ |
+| The Rundown AI  | 500K+    | rundownai.com/submit  | "Largest directory + 3D globe" |
+| TLDR AI         | 400K+    | tldr.tech/ai          | "Launch story + tech stack"    |
+| Ben's Bites     | 100K+    | bensbites.beehiiv.com | "Globe visual = unique hook"   |
+| Superhuman      | 200K+    | joinsuperhuman.ai     | "Productivity angle"           |
+| AI Tool Report  | 150K+    | aitoolreport.com      | "Directory submission"         |
+| The AI Exchange | 80K+     | Direct LinkedIn       | "Founder story"                |
+
 
 ---
 
@@ -1566,6 +1656,7 @@ Pas d'obligation du tout, juste partage si tu trouves ça utile.
 ### Communautés à cibler
 
 **Reddit (posts natifs) :**
+
 - r/artificial (2.5M)
 - r/MachineLearning (3M) — angle technique
 - r/SideProject (200K)
@@ -1576,16 +1667,19 @@ Pas d'obligation du tout, juste partage si tu trouves ça utile.
 - r/datascience (700K)
 
 **Discord :**
+
 - AI Tinkerers (discord de communautés IA)
 - Indie Hackers Discord
 - Build In Public Discord
 - Latent Space Discord (ML)
 
 **Slack :**
+
 - Mind the Product (product managers)
 - Online Geniuses (marketeurs)
 
 **Forums :**
+
 - HackerNews (Show HN) — angle tech
 - Indie Hackers (milestones)
 - ProductHunt (J0)
@@ -1626,55 +1720,69 @@ or the Supabase Realtime setup.
 ### Métriques par phase
 
 #### J0 (Jour de lancement)
-| Métrique | Cible réaliste | Cible ambitieuse |
-|---|---|---|
-| Visiteurs uniques | 500 | 2 000 |
-| Votes Product Hunt | 50 | 200 |
-| Partages X | 20 | 100 |
-| Upvotes sur les outils | 100 | 500 |
-| Abonnés X gagnés | 20 | 100 |
+
+
+| Métrique               | Cible réaliste | Cible ambitieuse |
+| ---------------------- | -------------- | ---------------- |
+| Visiteurs uniques      | 500            | 2 000            |
+| Votes Product Hunt     | 50             | 200              |
+| Partages X             | 20             | 100              |
+| Upvotes sur les outils | 100            | 500              |
+| Abonnés X gagnés       | 20             | 100              |
+
 
 #### J+7 (Semaine 1)
-| Métrique | Cible réaliste | Cible ambitieuse |
-|---|---|---|
-| Visiteurs uniques totaux | 2 000 | 8 000 |
-| Sessions moyennes/jour | 300 | 1 200 |
-| Taux de rebond | < 60% | < 45% |
-| Pages vues / session | > 2 | > 4 |
-| Mentions presse / newsletters | 1 | 5 |
+
+
+| Métrique                      | Cible réaliste | Cible ambitieuse |
+| ----------------------------- | -------------- | ---------------- |
+| Visiteurs uniques totaux      | 2 000          | 8 000            |
+| Sessions moyennes/jour        | 300            | 1 200            |
+| Taux de rebond                | < 60%          | < 45%            |
+| Pages vues / session          | > 2            | > 4              |
+| Mentions presse / newsletters | 1              | 5                |
+
 
 #### J+30 (Mois 1)
-| Métrique | Cible réaliste | Cible ambitieuse |
-|---|---|---|
-| Visiteurs uniques | 10 000 | 50 000 |
-| Visiteurs récurrents | 20% | 35% |
-| Backlinks obtenus | 10 | 50 |
-| Abonnés X | 200 | 1 000 |
-| Newsletter subscribers (si créée) | 100 | 500 |
-| Position Google "AI tools directory" | Top 50 | Top 20 |
+
+
+| Métrique                             | Cible réaliste | Cible ambitieuse |
+| ------------------------------------ | -------------- | ---------------- |
+| Visiteurs uniques                    | 10 000         | 50 000           |
+| Visiteurs récurrents                 | 20%            | 35%              |
+| Backlinks obtenus                    | 10             | 50               |
+| Abonnés X                            | 200            | 1 000            |
+| Newsletter subscribers (si créée)    | 100            | 500              |
+| Position Google "AI tools directory" | Top 50         | Top 20           |
+
 
 #### J+90 (Mois 3)
-| Métrique | Cible réaliste | Cible ambitieuse |
-|---|---|---|
-| Visiteurs mensuels | 30 000 | 150 000 |
-| Trafic organique SEO | 40% | 60% |
-| DA/DR (Ahrefs) | 15 | 30 |
-| Outils dans le répertoire | 1 500 | 2 000 |
+
+
+| Métrique                  | Cible réaliste | Cible ambitieuse |
+| ------------------------- | -------------- | ---------------- |
+| Visiteurs mensuels        | 30 000         | 150 000          |
+| Trafic organique SEO      | 40%            | 60%              |
+| DA/DR (Ahrefs)            | 15             | 30               |
+| Outils dans le répertoire | 1 500          | 2 000            |
+
 
 ---
 
 ### Outils de tracking recommandés
 
-| Outil | Usage | Gratuit ? |
-|---|---|---|
-| **Plausible Analytics** | Analytics vie privée, léger | Payant ($9/mois) |
-| **Umami** | Analytics open source, auto-hébergé | Gratuit (self-host) |
-| **Google Analytics 4** | Analytics complet, gratuit | Gratuit |
-| **Google Search Console** | SEO, mots-clés, impressions | Gratuit |
-| **Ahrefs Webmaster Tools** | Backlinks, SEO | Gratuit (limité) |
-| **Hypefury** | Programmer les posts X | Payant ($19/mois) |
-| **Buffer** | Programmer tous les réseaux | Freemium |
-| **Notion** | Calendrier éditorial | Freemium |
+
+| Outil                      | Usage                               | Gratuit ?           |
+| -------------------------- | ----------------------------------- | ------------------- |
+| **Plausible Analytics**    | Analytics vie privée, léger         | Payant ($9/mois)    |
+| **Umami**                  | Analytics open source, auto-hébergé | Gratuit (self-host) |
+| **Google Analytics 4**     | Analytics complet, gratuit          | Gratuit             |
+| **Google Search Console**  | SEO, mots-clés, impressions         | Gratuit             |
+| **Ahrefs Webmaster Tools** | Backlinks, SEO                      | Gratuit (limité)    |
+| **Hypefury**               | Programmer les posts X              | Payant ($19/mois)   |
+| **Buffer**                 | Programmer tous les réseaux         | Freemium            |
+| **Notion**                 | Calendrier éditorial                | Freemium            |
+
 
 ---
 
@@ -1682,29 +1790,31 @@ or the Supabase Realtime setup.
 
 Crée une base de données Notion avec les colonnes suivantes :
 
-| Colonne | Type | Valeurs |
-|---|---|---|
-| Titre du post | Texte | — |
-| Plateforme | Select | X, LinkedIn, Instagram, Reddit, TikTok, Blog |
-| Type | Select | Post, Thread, Carousel, Reel, Article |
-| Statut | Select | Idée, À rédiger, Prêt, Publié |
-| Date publication | Date | — |
-| URL publiée | URL | — |
-| Impressions | Nombre | — |
-| Engagements | Nombre | — |
-| Notes | Texte | — |
+
+| Colonne          | Type   | Valeurs                                      |
+| ---------------- | ------ | -------------------------------------------- |
+| Titre du post    | Texte  | —                                            |
+| Plateforme       | Select | X, LinkedIn, Instagram, Reddit, TikTok, Blog |
+| Type             | Select | Post, Thread, Carousel, Reel, Article        |
+| Statut           | Select | Idée, À rédiger, Prêt, Publié                |
+| Date publication | Date   | —                                            |
+| URL publiée      | URL    | —                                            |
+| Impressions      | Nombre | —                                            |
+| Engagements      | Nombre | —                                            |
+| Notes            | Texte  | —                                            |
+
 
 ---
 
 ### Signaux à surveiller chaque semaine
 
-- [ ] Trafic vs semaine précédente (Google Analytics / Plausible)
-- [ ] Nouvelles mentions sur X (recherche `aiverse` ou `[VOTRE_URL]`)
-- [ ] Nouveaux backlinks (Google Search Console → Liens)
-- [ ] Commentaires/questions sans réponse (tous canaux)
-- [ ] Outils les plus upvotés de la semaine (pour "Tool of the Week")
-- [ ] Erreurs console en production (F12 sur le site live)
-- [ ] Temps de chargement (PageSpeed Insights)
+- Trafic vs semaine précédente (Google Analytics / Plausible)
+- Nouvelles mentions sur X (recherche `aiverse` ou `[VOTRE_URL]`)
+- Nouveaux backlinks (Google Search Console → Liens)
+- Commentaires/questions sans réponse (tous canaux)
+- Outils les plus upvotés de la semaine (pour "Tool of the Week")
+- Erreurs console en production (F12 sur le site live)
+- Temps de chargement (PageSpeed Insights)
 
 ---
 
