@@ -33,8 +33,8 @@ export default function App() {
             <Route path="/tool/:slug" element={<ToolDetailPage />} />
             <Route path="/submit" element={<SubmitToolPage />} />
 
-            <Route path="/admin" element={<AdminLogin />} />
             <Route path="/admin" element={<AdminLayout />}>
+              <Route index element={<AdminLogin />} />
               <Route path="dashboard" element={<AdminDashboard />} />
               <Route path="tools" element={<AdminTools />} />
               <Route path="submissions" element={<AdminSubmissions />} />

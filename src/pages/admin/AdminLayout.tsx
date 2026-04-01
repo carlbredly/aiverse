@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { NavLink, Outlet, useNavigate, Navigate } from 'react-router-dom'
+import { NavLink, Outlet, useNavigate, Navigate, useLocation } from 'react-router-dom'
 import { Zap, LayoutDashboard, Wrench, Inbox, LogOut, Globe } from 'lucide-react'
 import { supabase } from '../../lib/supabase'
 
@@ -45,6 +45,8 @@ function NavItem({ to, icon, label }: { to: string; icon: React.ReactNode; label
 export function AdminLayout() {
   const [session, setSession] = useState<boolean | null>(null)
   const navigate = useNavigate()
+  const location = useLocation()
+  const isAdminRoot = location.pathname === '/admin' || location.pathname === '/admin/'
 
   useEffect(() => {
     supabase.auth.getSession().then(({ data }) => setSession(!!data.session))
@@ -66,7 +68,12 @@ export function AdminLayout() {
     )
   }
 
-  if (!session) return <Navigate to="/admin" replace />
+  if (!session) {
+    if (isAdminRoot) return <Outlet />
+    return <Navigate to="/admin" replace />
+  }
+
+  if (isAdminRoot) return <Navigate to="/admin/dashboard" replace />
 
   return (
     <div style={{ display: 'flex', minHeight: '100vh', backgroundColor: 'var(--color-bg)' }}>
