@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 import { MainPage } from './pages/MainPage'
 import { GlobePage } from './pages/GlobePage'
 import { ToolDetailPage } from './pages/ToolDetailPage'
@@ -44,6 +45,7 @@ export default function App() {
           </>
         )}
       </Routes>
+      <Analytics />
     </BrowserRouter>
   )
 }
